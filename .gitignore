@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+
+.env
+.env.*
+
+.DS_Store
+
+.ipynb_checkpoints/
+
+# Training and inference artifacts
+outputs/
+artifacts/
+checkpoints/
+models/
+wandb/
+runs/
+
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.log
